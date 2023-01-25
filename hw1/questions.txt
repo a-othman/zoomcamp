@@ -1,0 +1,21 @@
+Question 1: Which tag has the following text? - Write the image ID
+to the file
+
+Ans 1: --iidfile string
+Explaniation: I used the command: "docker build --help | grep "Write the image ID to the file"
+and I got the answer as follows: --iidfile string          Write the image ID to the file
+
+
+Question 2: Run docker with the python:3.9 image in an interactive 
+mode and the entrypoint of bash. Now check the python modules that 
+are installed ( use pip list). How many python packages/modules are
+installed?
+
+Ans 2: 3
+Explaniation: Created a Dockerfile and built an image named question2 
+from it then ran a container in interactive mode and found the
+total number of packages install in the container using the given
+command "pip list" 
+
+
+
