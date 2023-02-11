@@ -1,3 +1,4 @@
+*__pycache__*
 */archive/*
 .DS_Store
 .ipynb_checkpoints
@@ -5,3 +6,8 @@
 */terraform/.terraform/
 */terraform/terraform.tfstate
 data/
+hw1/ny_taxi_2019/
+hw1/ny_taxi_postgres_data/
+hw1/terraform/terraform.tfstate.backup
+*.pyc
+
